@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 
     //Movement
     public float speed;
-    public float jump;
+    public float jump = 1;
     float moveVelocity;
 
     //Grounded Vars
